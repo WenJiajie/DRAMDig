@@ -1,3 +1,5 @@
+# cite from https://github.com/dramdig/DRAMDig?tab=readme-ov-file
+the code is used to detect the row bit latency.
 # DRAMDig: A Knowledge-assisted Tool to Uncover DRAM Address Mapping
 DRAM address mapping is critial for Rowhammer attack detection and mitigations. DRAMDig is a knowledge-assisted tool that takes domain knowledge into consideration to efficiently and deterministically uncover the DRAM address mappings on any Intel-based machines with Non-ECC DDR3/DDR4 DRAM modules. It deterministically reverse-engineered DRAM address mappings on all the test machines with only 7.8 minutes on average, 69 seconds at least from our experiments.
 
@@ -8,7 +10,7 @@ DRAMDig can help users better understand DRAM address mapping and evaluate the i
 ### Prerequisites 
 You need install i2c-tools and load the modules before running DRAMDig.
 
-#### Install i2c-tools
+#### Install i2c-tools(the tool is to get the information of device,the latest version of ubuntu is not available)
 ```
 wget https://fossies.org/linux/misc/i2c-tools-4.1.tar.gz
 tar xzvf i2c-tools-4.1.tar.gz
